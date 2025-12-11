@@ -13,7 +13,3 @@ Template ini memantau halaman berita Valorant (patch notes) dan mengirim notifik
 - Jika struktur laman berubah, perbarui selector di `valorant_updates.py` pada fungsi `fetch_latest()`.
 - Untuk memantau sumber lain (dev blog, reddit), ubah `URL` dan parsing logic.
 
-## Notes
-- Jangan polling terlalu agresif.
-- Jika ingin menyimpan riwayat lebih lengkap, gunakan SQLite atau simpan log ke file terpisah.
-- Untuk menambahkan thumbnail atau ringkasan, parsing halaman detail (ikuti link `latest["link"]`).
