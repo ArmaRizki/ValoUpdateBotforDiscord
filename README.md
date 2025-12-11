@@ -1,3 +1,10 @@
-# Valorant Update Bot (Webhook + GitHub Actions)
+# Valorant Forum Bot
 
-Template ini memantau halaman berita Valorant (patch notes) dan mengirim notifikasi ke Discord melalui Webhook.
+Bot yang memposting update Valorant ke Forum Channel atau text channel fallback.
+
+Edit `.env` atau environment variabel:
+- DISCORD_TOKEN
+- TARGET_CHANNEL_ID
+- FALLBACK_CHANNEL_ID (opsional)
+- CHECK_INTERVAL_SECONDS
+- SOURCE_URL
